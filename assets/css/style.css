@@ -1,0 +1,91 @@
+
+
+.navbar-1 {
+    background-color: transparent;
+}
+
+.title-h1{
+    text-align: center;
+}
+
+/* Estilos de la seccion quienes somos*/
+
+.row1 {
+    height: 50px;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row2 {
+    height: 300px;
+}
+
+.row3 {
+    height: 300px;
+}
+
+.row4 {
+    height: 50px;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row5 {
+    height: 50px;
+    background-color: skyblue;
+    /*estilo de bordes
+    border: 2px solid #000000;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row6 {
+    height: 300px;
+}
+
+
+
+.icon-container i {
+    color: #fff;
+    font-size: 24px; 
+    padding-top: 10px;
+}
+
+.card{
+    padding-right: 10px;
+}
+.card-body{
+    background-color: aqua;
+}
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    margin: 0;
+}
+.social-icons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.social-icons li a {
+    display: block;
+}
