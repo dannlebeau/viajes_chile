@@ -1,4 +1,7 @@
 
+body {
+    background-color: black;
+}
 
 .navbar-1 {
     background-color: transparent;
@@ -6,6 +9,7 @@
 
 .title-h1{
     text-align: center;
+    color: #f2f2f2;
 }
 
 /* Estilos de la seccion quienes somos*/
@@ -20,10 +24,12 @@
 
 .row2 {
     height: 300px;
+    color: #f2f2f2;
 }
 
 .row3 {
     height: 300px;
+    color: #f2f2f2;
 }
 
 .row4 {
@@ -46,9 +52,8 @@
 
 .row6 {
     height: 300px;
+    color: white;
 }
-
-
 
 .icon-container i {
     color: #fff;
@@ -56,8 +61,11 @@
     padding-top: 10px;
 }
 
+.card-title, .card-text, .form-label {
+    color: #f2f2f2;
+}
 .card{
-    padding-right: 10px;
+    margin-right: 100px;
 }
 .card-body{
     background-color: aqua;

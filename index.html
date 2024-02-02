@@ -11,21 +11,21 @@
     <title>Viajes Chile</title>
 	<!--The own the this page web is Dann LaBeau-->
     <link rel="icon" href="/assets/img/viajes.svg"> <!--Icono en la pestaña Favicon-->
-    <!--Estilos CSS-->
-    <link rel="stylesheet" href="./assets/css/style.css">
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <!--JQuery-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!--Iconos desde Font Awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!--Estilos CSS-->
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <!-- Barra de Navegación -->
     <section> <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-1 fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand lobster-text" id="navbar-1" href="#"><img src="./assets/img/viajes.svg" height="50px"></a>
+                <a class="navbar-brand lobster-text"  href="#"><img src="./assets/img/viajes.svg" height="50px"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -76,7 +76,7 @@
             </button>
         </div>
     </section><br><br>
-
+    <!--Quienes somos-->
     <section> 
         <h1 class="title-h1" id="quienes-somos">¿Quienes Somos?</h1><hr>
         <div class="container mt-5">
@@ -92,27 +92,25 @@
                         </div>
                         <!-- Fila 2 -->
                         <div class="col-md-12 row2">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolorem eaque earum aspernatur inventore dicta architecto tempore iusto voluptatibus, facilis commodi autem! Fuga error eligendi itaque cum assumenda illo ducimus.</p>
+                            <p class="d-none d-md-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolorem eaque earum aspernatur inventore dicta architecto tempore iusto voluptatibus, facilis commodi autem! Fuga error eligendi itaque cum assumenda illo ducimus.</p>
                         </div>
                     </div>
                 </div>
-    
                 <!-- Columna 2 -->
                 <div class="col-md-4">
                     <div class="row">
                         <!-- Fila 1 -->
                         <div class="col-md-12 row3">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sapiente amet dolores, odio sint similique fugit, aperiam animi facere, reprehenderit quia blanditiis dolorum molestiae. Itaque iusto corporis dolores velit reprehenderit.</p>
+                            <p class="d-none d-md-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sapiente amet dolores, odio sint similique fugit, aperiam animi facere, reprehenderit quia blanditiis dolorum molestiae. Itaque iusto corporis dolores velit reprehenderit.</p>
                         </div>
                         <!-- Fila 2 -->
                         <div class="col-md-12 row4">
                             <div class="icon-container">
-                                <i class="fas fa-play"></i>
+                                <i class="fas fa-mountain"></i>
                             </div>
                         </div>
                     </div>
                 </div>
-    
                 <!-- Columna 3 -->
                 <div class="col-md-4">
                     <div class="row">
@@ -124,13 +122,14 @@
                         </div>
                         <!-- Fila 2 -->
                         <div class="col-md-12 row6">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae quo vero doloremque. Consequatur deleniti voluptatem voluptas nemo nobis debitis, excepturi vero odio alias facilis accusamus iure dolorem id? Tempore, facilis!</p>
+                            <p class="d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae quo vero doloremque. Consequatur deleniti voluptatem voluptas nemo nobis debitis, excepturi vero odio alias facilis accusamus iure dolorem id? Tempore, facilis!</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section><br>
+    <!--Destacados-->
     <h1 class="title-h1" id="destacados">DESTACADOS</h1><hr>
 	<section class="d-flex justify-content-center">
         <!--Lamina 1-->
@@ -140,7 +139,7 @@
                 <h5 class="card-title">Lorem impsum dolor sit amet</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, odit, laboriosam nobis fugit, dolores eveniet illo rerum optio vel asperiores quasi voluptatibus aliquid laudantium possimus error nulla eius consequatur repellat?</p>
             </div>
-        </div><br>
+        </div>
         <!--Lamina 2-->
         <div class="card" style="width: 18rem;">
             <img src="./assets/img/card2.jpg" class="card-img-top" alt="card2">
@@ -201,18 +200,18 @@
                     <p class="mb-0">VIAJES CHILE</p>
                 </div>
                 <div class="col-md-6 text-md-end">
-                    <a href="#" class="text-light me-3"><i class="fab fa-github"></i></a>
-                    <a href="#" class="text-light me-3"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/dannlebeau/" class="text-light me-3"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/jcordovafredes/" class="text-light me-3"><i class="fab fa-linkedin"></i></a>
                     <a href="#" class="text-light me-3"><i class="fab fa-twitter"></i></a>
                     <a href="#" class="text-light"><i class="fab fa-facebook"></i></a>
                 </div>
             </div>
         </div>
     </footer>
-    <!--Codigo Javascript-->
-    <script src="./assests/js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-lS6H6qY99BDkG5rDHU0v1KYJc2Qlcy5nuCpbvQyuVqP1afo2UqMpl7fO9dAiS50M6" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>  
+    <!--Codigo Javascript-->
+    <script src="./assests/js/script.js"></script>
 </body>
 </html>
 
